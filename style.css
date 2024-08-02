@@ -1,0 +1,483 @@
+*{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.home-section{
+    background-image: url('https://th.bing.com/th/id/R.6bf3e561c2ae59cde8d44704b3418bcd?rik=6qvgVT6shW%2bgjw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f4%2f7%2f9%2f168490.jpg&ehk=GtwWTh%2bDiadHNO%2fsEjrbDJGY4cj5KEVdFcoej1%2fiqTE%3d&risl=&pid=ImgRaw&r=0');
+ 
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.nav-list{
+    position: absolute;
+    right: 5%;
+    margin: 10px;
+    
+}
+
+.nav-li{
+    margin: 5px !important;
+   
+   
+}
+
+.brand {
+    color: orange;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 20px !important;
+    margin-top: 50px !important;
+}
+.brand span{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+.li-link{
+    color: white;
+}
+.li-link:hover{
+    color: #fd7f28;
+}
+
+.about-head{
+    position: absolute;
+    right: 30%;
+    top: 30%;
+    color: white;
+}
+.about-head ul{
+    list-style: none;
+}
+.about-head h3{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+.nav-btn{
+    position: absolute;
+    right: 50%;
+    top: 90%;
+    padding: 10px;
+}
+.nav-btn a{
+    color: white;
+    text-decoration: none;
+    padding: 5px !important;
+}
+.package-head{
+    text-align: center;
+    margin-top: 30px !important;
+    font-weight: 800;
+}
+
+.card-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px !important;
+}
+/* .btn-dest{
+    margin-top: 10px !important;
+    padding: 5px !important;
+} */
+.img-dest{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+.card-dest{
+   margin: 20px !important;
+   transition: box-shadow 0.3s ease;
+}
+.text-dest{
+    text-align: justify;
+}
+.h6-dest{
+    color: red;
+}
+.more-a{
+    background-color: navy;
+    text-decoration: none;
+    color: white;
+    padding: 5px !important;
+    border-radius: 20px;
+}
+.more-a:hover{
+    background-color: red;
+}
+.btn-more{
+    text-align: center;
+    margin-top: 10px !important;
+}
+.card-dest:hover{
+    box-shadow: 12px 12px 12px 12px rgba(0, 0, 0, 0.2); 
+}
+
+
+.fest-head{
+    text-align: center;
+    margin-top: 50px !important;
+    margin-bottom: 30px !important;
+    font-weight: 800;
+}
+.car-img{
+    height: 500px;
+    object-fit: cover;
+}
+.car-head{
+     font-weight: 900;
+     color: orange;
+     margin-top: -100px !important;
+     
+}
+.car-link{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: navy;
+    padding: 5px !important;
+    border-radius: 20px;
+}
+.car-text{
+    padding: 10px !important;
+    color: #fd7f28;
+    font-weight: 700;
+}
+.car-link:hover{
+background-color: red;
+}
+
+.grid-img{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+.vg-hold{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px !important;
+    flex-wrap: wrap;
+}
+.dance{
+    height: 510px;
+}
+
+
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    /* width: 80%;
+    height: 80%; */
+}
+
+.grid-container > div {
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: #333;
+}
+
+
+.item1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+
+.item2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+
+.item3 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+
+.item4 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+
+.item5 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+}
+
+
+.item6 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+
+.item7 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.item8 {
+    grid-column: 3 / 3;
+    grid-row: 3 / 4;
+}
+
+.north-head{
+    text-align: center;
+    font-weight: 800;
+    margin-top: 20px !important;
+}
+.north-india{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+
+.north-card{
+    width: 350px;
+    height: 250px;
+    margin-top: 20px !important;
+}
+
+.d-n {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    transition: opacity 0.3s ease-in-out;
+}
+
+.north-card:hover .d-n {
+    opacity: 1;
+}
+.c-l{
+    text-decoration: none;
+    background-color: navy;
+    padding: 5px !important;
+    border-radius: 20px;
+    color: white;
+
+}
+.c-l:hover{
+    background-color: red;
+}
+.card-img{
+    padding: 10px !important;
+    object-fit: cover;
+    height: 250px;
+}
+.s-n{
+    color: aquamarine;
+}
+
+.feat-head{
+    text-align: center;
+    font-weight: 800;
+    margin-top: 20px !important;
+}
+.feat-sub{
+    text-align: center;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    color: burlywood;
+}
+.our-feat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px !important;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.feat-img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 18rem; /* Set a height to make the container square */
+    overflow: hidden;
+  }
+
+  .no-border {
+    border: none; 
+    box-shadow: none;
+  }
+  .feat-link{
+    text-decoration: none;
+
+  }
+  .feat-link:hover{
+    color: blue;
+  }
+  .cust-head{
+    text-align: center;
+   color: rosybrown;
+  }
+  .hand-love{
+    font-size: 28px;
+  }
+  .cust-sub{
+    text-align: center;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    color: rosybrown;
+    margin-bottom: 20px !important;
+  }
+  .cust-card{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px !important;
+    gap: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+   
+   
+  }
+  .cust-img{
+    object-fit: cover;
+    height: 200px !important;
+  }
+  .star{
+    display: flex;
+  }
+  .bord{
+    border: none;
+  }
+  .foot{
+    display: flex;
+  
+   justify-content: center;
+   margin-top: 20px !important;
+   gap: 20px;
+   background-color: navy;
+   color: white;
+   height: 300px;
+   position: relative;
+  }
+  .img-ab{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+  }
+  .social{
+    position: absolute;
+    left: 10%;
+    
+  }
+  .social-head{
+    color: #fd7f28;
+  }
+.logo{
+    font-size: 25px !important;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: 40%;
+}
+.abo{
+    color: #fd7f28;
+}
+.about a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.abt-img{
+    position: absolute;
+    bottom: 5%;
+    right: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 780px){
+    .grid-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 680px){
+    .abt-img{
+        display: none;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center;
+        justify-content: center; */
+    }
+    .social{
+        position: absolute;
+        left: 0;
+    }
+    .about{
+        position: absolute;
+        right: 0;
+    }
+}
+.white{
+    color: black;
+    background-color: white;
+    position: absolute;
+    right: 5%;
+    margin-top: 10px !important;
+}
